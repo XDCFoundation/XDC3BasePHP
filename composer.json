@@ -1,0 +1,21 @@
+{
+    "name": "xdc3base/php",
+    "description": "This library provides simple way to interact with XRC20 and XRC721 .",
+    "type": "library",
+    "authors": [{
+        "name": "XDCFoundation",
+        "email": "XFLW@xinfin.org"
+    }],
+    "autoload": {
+        "psr-4": {
+            "XDC3BASE\\PHP\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "sc0vu/web3.php": "0.1.4",
+        "web3p/ethereum-util": "0.1.2",
+        "kornrunner/ethereum-offline-raw-tx": "0.2.4"
+    }
+}
