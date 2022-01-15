@@ -2,7 +2,7 @@
 
 namespace XDC\PHP\Foundation\Transaction;
 
-include "Xdc.php";
+
 use Exception;
 use XDC\PHP\Foundation\Xdc;
 
